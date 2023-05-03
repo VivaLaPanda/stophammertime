@@ -1,0 +1,30 @@
+{
+  "name": "stophammertime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-esm index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@atproto/api": "^0.2.11",
+    "dotenv": "^16.0.3",
+    "exponential-backoff": "^3.1.1",
+    "manifold-sdk": "^2.0.1",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "debugging-aid": "^0.6.7",
+    "eslint": "^8.38.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
+  }
+}
